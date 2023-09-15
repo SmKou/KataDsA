@@ -2,26 +2,22 @@
 
 By: Stella Marie
 
-Capstone project for Epicodus: Programmer's project organizer.
+Capstone project for Epicodus: Programmer’s project organizer
+
 View:
 
 ## Technologies Used
 
-**Considering**
-- Vue.js with Vite
-- Node.js: Express and Knex
-- Render.com
-
 ## Description
 
-KataDsA is a programmer's project organizer, where programmers can add to a profile page by adding links to a github repo and the deployed project, whether on Github Pages, Netflify, or another host. 
+KataDsA is a programmer's project organizer, where programmers can add to a profile page by adding links to a github repo and the deployed project, whether on Github Pages, Netflify, or another host.
 
 - KataDsA
 - KataDsA-API
 - Kou.d Blue (organization)
-  - Data structures
-  - Algorithms
-  - Kata(s)
+    - Data structures
+    - Algorithms
+    - Kata(s)
 
 ## Research and Planning Log
 
@@ -30,7 +26,18 @@ KataDsA is a programmer's project organizer, where programmers can add to a prof
 01:20 pm (~) Add to capstone proposal: MVP Features
 01:40 pm (~) Read on Vue
 
+02:33 pm Install Vue
+
 ## Complete Setup
+
+If you want to start the KataDsA app from scratch...
+
+Scaffold with Vite:
+```bash
+npm create vite katadsa --template vue
+Vue
+Javascript
+```
 
 ## Known Bugs
 
