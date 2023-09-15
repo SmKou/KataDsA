@@ -70,6 +70,7 @@ According to Wikipedia, an algorithm is a finite sequence of rigorous instructio
 
 **Libraries**
 
+- Tailwind CSS
 - Express
 - Knex
 - Bcrypt
