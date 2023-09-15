@@ -16,6 +16,9 @@ View:
 
 ## Research and Planning Log
 
+12:16 pm Write capstone proposal
+01:00 pm (~) Github REST API and Octokit
+
 ## Complete Setup
 
 ## Known Bugs
