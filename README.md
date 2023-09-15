@@ -28,6 +28,7 @@ KataDsA is a programmer's project organizer, where programmers can add to a prof
 
 02:33 pm Install Vue
 02:46 pm Experiment with Vue (Help Queue)
+03:19 pm Refer to [Week 16](https://github.com/SmKou/week-16)
 
 ## Complete Setup
 
