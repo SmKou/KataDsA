@@ -18,6 +18,7 @@ View:
 
 12:16 pm Write capstone proposal
 01:00 pm (~) Github REST API and Octokit
+01:20 pm (~) Add to capstone proposal: MVP Features
 
 ## Complete Setup
 
