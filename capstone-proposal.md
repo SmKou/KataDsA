@@ -5,12 +5,12 @@
 **Project Purpose/Goal:** KataDsA is a projects organizer for programmers that includes searchable profiles, github fetching for project content and assessment, and organization of template projects for practicing and learning data structures and algorithms.
 
 ## Minimum (viable) Features of MVP
-
 - Web App (frontend client)
-- Web App (backend server)
+- Web Api (backend server)
+- Database
+- Github template projects
 
 ### Web App
-
 - Search programmers
     - Username
     - Project name
@@ -41,19 +41,22 @@ KataDsA
   According to Wikipedia, an algorithm is a finite sequence of rigorous instructions.
 
 ### Web API
-
 - User authentication
     - MFA
     - JWT
     - Encryption
-- Link github to user (optional: login with github)
+- Link github to user
 - Add projects to user account
 - Fetch github repo details
     - readme
     - languages
 
-### Github repo: Kou.d Blue
+### Database
+- User information
+    - User analysis
+- Project information
 
+### Github repo: Kou.d Blue
 - Data structures template project
 - Algorithms template project
 - Kata template project (per kata)
@@ -61,15 +64,13 @@ KataDsA
 ### Technologies and Resources
 
 **Tools**
-
 - Vite
 
 **Frameworks**
-
-- Vue.js
+- Vue.js (in-consideration)
+  - alternatives: React | SvelteKit | Lit
 
 **Libraries**
-
 - Tailwind CSS
 - Express
 - Knex
@@ -77,11 +78,9 @@ KataDsA
 - Octokit
 
 **APIs**
-
 - Github REST API
 
 **Modules**
-
 - Color modes
     - Light
     - Dark
@@ -93,7 +92,6 @@ KataDsA
 - [Render.com](http://render.com/) (host)
 
 ## Stretch Goals
-
 - Learning status
     - Add links to courses and bootcamps
     - Upload certificates or certificate urls
@@ -109,20 +107,17 @@ KataDsA
 ### Technologies and Resources
 
 **APIs**
-
-- Canvas / WebGL
+- Canvas / WebGL (possible: Pixi.js)
 
 ## Later Goals
-
+- Github login
 - Code editor
 - Side-by-side view
 
 ### Technologies and Resources
 
 **Libraries**
-
 - CodeMirror components
 
 **Modules**
-
 - Page layout
