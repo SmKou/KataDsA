@@ -22,7 +22,7 @@ KataDsA is a programmer's project organizer, where programmers can add to a prof
 ## Research and Planning Log
 
 12:16 pm Write capstone proposal
-01:00 pm (~) Github REST API and Octokit
+01:00 pm (~) Quick reference: Github REST API and Octokit
 01:20 pm (~) Add to capstone proposal: MVP Features
 01:40 pm (~) Read on Vue
 

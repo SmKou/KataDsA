@@ -34,11 +34,11 @@ KataDsA
 
 - Meaning: Kata Data structures Algorithms
 - What is a Kata?
-A kata is a martial arts term for a system of individual training exercises. Web apps offering coding challenges like CodeWars, CodeKata, and Coding Dojo for example, have small coding exercises they call kata.
+  A kata is a martial arts term for a system of individual training exercises. Web apps offering coding challenges like CodeWars, CodeKata, and Coding Dojo for example, have small coding exercises they call kata.
 - What is a Data structure?
-According to Wikipedia, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data. We can take this to mean a programming construct that holds accessible local and/or shared memory.
+  According to Wikipedia, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data. We can take this to mean a programming construct that holds accessible local and/or shared memory.
 - What is an Algorithm?
-According to Wikipedia, an algorithm is a finite sequence of rigorous instructions.
+  According to Wikipedia, an algorithm is a finite sequence of rigorous instructions.
 
 ### Web API
 
