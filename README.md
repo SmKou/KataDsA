@@ -21,14 +21,17 @@ KataDsA is a programmer's project organizer, where programmers can add to a prof
 
 ## Research and Planning Log
 
+**FRI, Sep 15**
 12:16 pm Write capstone proposal
 01:00 pm (~) Quick reference: Github REST API and Octokit
 01:20 pm (~) Add to capstone proposal: MVP Features
 01:40 pm (~) Read on Vue
-
 02:33 pm Install Vue
 02:46 pm Experiment with Vue (Help Queue)
 03:19 pm Refer to [Week 16](https://github.com/SmKou/week-16)
+
+**SUN, Sep 17**
+08:11 pm Continue reading on Vue: [Docs](https://vuejs.org/guide/essentials/application.html)
 
 ## Complete Setup
 
