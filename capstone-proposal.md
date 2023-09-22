@@ -1,8 +1,8 @@
 # Capstone Proposal: KataDsA
 
 **Student Name:** Stella Marie
-**Project Name:** KataDsA (Kata Data structures Algorithms)
-**Project Purpose/Goal:** KataDsA is a projects organizer for programmers that includes searchable profiles, github fetching for project content and assessment, and organization of template projects for practicing and learning data structures and algorithms.
+**Project Name:** KataDSA (Kata Data structures Algorithms)
+**Project Purpose/Goal:** KataDsA is a projects organizer for programmers that includes searchable profiles, github fetching for project content and assessment, and organization of template projects for solving problems.
 
 ## Minimum (viable) Features of MVP
 - Web App (frontend client)
@@ -56,15 +56,7 @@ problem-type: kata | data-structure | algorithm
   
 ### Web API
 [/]
-- User authentication
-    - MFA
-    - JWT
-    - Encryption
-- Link github to user
-- Add projects to user account
-- Fetch github repo details
-    - readme
-    - languages
+
 
 ### Database
 - Authentication (Github)

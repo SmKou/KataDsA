@@ -10,7 +10,7 @@ View:
 
 ## Description
 
-KataDsA is a programmer's project organizer, where programmers can add to a profile page by adding links to a github repo and the deployed project, whether on Github Pages, Netflify, or another host.
+KataDsA is a programmer's project organizer, where programmers can add to their profile page by adding links to a project, thereby updating the project's status. Template projects are available that can be cloned from Github for solving problems listed on KataDsA. In these projects, the UI is taken care of and it's up to the programmer, or user, to write, refactor or add to the code for the logic of the problem. For programmer profiles, KataDsA avoids subjective data by deriving data from a user's Github account and their linked repos. Without an account, public users can browse and search profiles.
 
 - KataDsA
 - KataDsA-API
