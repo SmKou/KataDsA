@@ -13,22 +13,49 @@
 - Supabase
 - Kou.d Blue Github organization
 
+**APIs**
+- Github
+- IPQualitySource
+- Google Safe Browsing Lookup
+
 ## Web Client
 
 **Routes**
 | Route                     | Page                  |
-| --------------------- | --------------------- |
+| ------------------------- | --------------------- |
 | /                         | Homepage              |
 | /kata                     | Kata problems         |
 | /kata/{problem}           | Kata details          |
 | /data-structure           | Data structures       |
+| /data-structure/{problem} | DS details            |
 | /algorithm                | Algorithm problems    |
 | /algorithm/{problem}      | Algorithm details     |
-| /programmer               | Results: programmers  |
+| /programmer               | Sear programmers      |
 | /programmer/{username}    | Programmer profile    |
 | /project/{problem}        | Project details       |
 
-### Page Template
+If details are too short, do not create a details page
+
+**Components**
+- Create
+  - RegisterForm
+  - LoginForm
+  - AddProjectForm
+- List
+  - Search (Dummy element: out-of-scope)
+  - ProblemCard
+  - ProjectCard
+  - ProgrammerCard
+- Read
+  - About and ProblemDescriptions
+  - ProblemDetails
+  - ProjectDetails
+  - ProgrammerDetails
+- Update
+  - EditProfileForm
+  - EditProjectForm
+
+### Site Template
 - Header
   - Site logo => home
   - Menu => Kata | Data structures | Algorithms
@@ -48,75 +75,81 @@
 ### Homepage
 **Route:** /
 - Menubar
-- Search programmers => ACTION
+- Search programmers => ACTION: Go to Programmer
 - About KataDSA
 - Problems: Kata, Data structures, Algorithms
 - Footer
 
-**ACTION:** Search by query & Go to Programmer
-- Username
-- Project name
-- Project source
-
-Enter search query => List of matching programmers
+**ACTION:** Query by username, project name, and project source
 Queries paginated: up to 10 results per page
+- How are programmers sorted?
 
 ### Programmer
 **Route:** /programmer
-
-**Page Template**
+**Page:**
 - Search
-- Results
+- List - ProgrammerCard
+**Template**
+-------------------------------------------------------------------
+[programmer]        [professional] [open_source] [academic] [hobby]
+
+Languages...
+Tools-Frameworks...
+
+Learning: [learning_source]
+Certifications: [certification_source][auto-mail: out-of-scope, un/confirmed: out-of-scope]
+
+[current_status]                                            CONTACT
+-------------------------------------------------------------------
+**Data**
+- programmer: username (optional: name)
+- professional, open_source, academic, hobby: no. of projects
+- 
 
 ### KataDSA Problems
 **Route:** /kata, /data-structure, /algorithm
-
-**Page Template**
-- List of problems
-
-**Component**
+**Page:** List - ProblemCard
+**ProblemCard**
 ------------------------------------------------
 Title                                    [scope]
 Description...
 
 [source] [resources]                      ACTION
 ------------------------------------------------
+**Data**
 - scope: function | class | module | program
 - source: (link) = origin of problem
 - resources: (links) = learn more or view source
 - ACTION: (button)
   - unauthenticated: search project
   - authenticated: add project | go to project page
-
 Add project:
 - Adds project to user's projects
 - Go to Github page for template
 
 ### Problem Details
 **Route:** /kata/{problem-name}, /algorithm/{problem-name}
-
-**Page Template**
+**Template**
 ------------------------------------------------
 Title                                    [scope]
 Extended description...
 
 [source] [resources]                      ACTION
 ------------------------------------------------
+**Data**
 - scope: function | class | module | program
 - source: (link) = origin of problem
 - resources: (links) = learn more or view source
 - ACTION: (button)
   - no-auth: search project
   - auth: add project | go to project page
-
 Add project:
 - Adds project to user's projects
 - Go to Github page for template
 
 ### Project Details
 **Route:** /programmer/{project-name}
-
-**Page Template**
+**Template**
 ------------------------------------------------
 Title [programmer]              [scope] [status]
 Extended description...
@@ -126,6 +159,7 @@ Project Status Timeline...
 
 [source] [resources]                      ACTION
 ------------------------------------------------
+**Data**
 - ACTION:
   - no-auth: (buttons) contact programmer
   - auth: (button) edit project
@@ -136,6 +170,25 @@ Project Status Timeline...
 - User information
 - Projects
 - Navigation: contact programmer, 
+
+### Programmer Account
+
+Project
+- status link: required for changing the status of a project
+- source links: required for confirming the sources of a project
+- type links: required to confirm project type
+
+Project type
+- professional: org page
+- open source: org page
+- academic: course page and uni page
+- hobby
+Confirm: Programmer = Owner | Collaborator
+- if not listed, do not add project to profile
+Commits by Programmer / Total Commits
+- if 0, do not add project to profile
+Repo -> started
+Host -> complete | ongoing
 
 ## Web Server
 
