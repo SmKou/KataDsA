@@ -31,6 +31,7 @@ KataDsA is a programmer's project organizer, where programmers can add to a prof
 03:19 pm Refer to [Week 16](https://github.com/SmKou/week-16)
 
 **SUN, Sep 17**
+04:32 pm Remove Vue
 08:11 pm Continue reading on Vue: [Docs](https://vuejs.org/guide/essentials/application.html)
 
 ## Complete Setup

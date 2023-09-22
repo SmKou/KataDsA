@@ -11,36 +11,51 @@
 - Github template projects
 
 ### Web App
-- Search programmers
-    - Username
-    - Project name
-    - Technologies used or known
-- User profile page
+[/]
+- Homepage
+    - Search programmers: username, project name, technologies
+    - About KataDsA
+        - Kata: A kata is a martial arts term for a system of individual training exercises. Web apps offering coding challenges like CodeWars, CodeKata, and Coding Dojo for example, have small coding exercises they call kata.
+        - Data structure:  According to Wikipedia, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data. We can take this to mean a programming construct that holds accessible local and/or shared memory.
+        - Algorithm: According to Wikipedia, an algorithm is a finite sequence of rigorous instructions.
+[/{problem-type}]
+problem-type: kata | data-structure | algorithm
+- Katas | Data structures | Algorithms
+    - Search problems: status, entity name, source
+        - Add to profile | Get Github template project
+        - View status
+[/{problem-type}/{problem-name}]
+- Details page
+    - Title
+    - Source
+    - Status
+    - Extended description
+    - Resources
+[/programmer]
+- Programmers [list returned from search query]
+[/programmer/username]
+- Progrmmer profile
     - Stats
-        - No. of projects
-        - No. of projects by type: academic, professional, open source, hobby
+        - No. of projects (by type): academic | professional | open source | hobby
         - Languages
         - Tools and frameworks
     - Projects
-        - Status: Not started (no link), In progress (github repo), Complete (host)
-- Trackers
-    - Browse template projects, add to profile and go to github repo to download
-    - Kata page
-    - Data structures page
-    - Algorithms page
-- User account page
-
-KataDsA
-
-- Meaning: Kata Data structures Algorithms
-- What is a Kata?
-  A kata is a martial arts term for a system of individual training exercises. Web apps offering coding challenges like CodeWars, CodeKata, and Coding Dojo for example, have small coding exercises they call kata.
-- What is a Data structure?
-  According to Wikipedia, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data. We can take this to mean a programming construct that holds accessible local and/or shared memory.
-- What is an Algorithm?
-  According to Wikipedia, an algorithm is a finite sequence of rigorous instructions.
-
+        - Title
+        - Status and links
+        - Description
+[/user-account/username]
+- Programmer account
+    - Modify information
+        - Github username
+        - Languages, tools and frameworks
+        - Learning and Certifications
+    - Manage projects
+        - Add link (change project status)
+        - Add to information: resources or description
+    - Add project
+  
 ### Web API
+[/]
 - User authentication
     - MFA
     - JWT
@@ -52,8 +67,8 @@ KataDsA
     - languages
 
 ### Database
+- Authentication (Github)
 - User information
-    - User analysis
 - Project information
 
 ### Github repo: Kou.d Blue
@@ -67,15 +82,12 @@ KataDsA
 - Vite
 
 **Frameworks**
-- Vue.js (in-consideration)
-  - alternatives: React | SvelteKit | Lit
+- Vue.js | React | SvelteKit | Lit & Htmx
 
 **Libraries**
-- Tailwind CSS
 - Express
 - Knex
 - Bcrypt
-- Octokit
 
 **APIs**
 - Github REST API
@@ -87,9 +99,8 @@ KataDsA
     - Color blind (if needed)
 
 **Other Resources**
-
-- Postgres (databse)
-- [Render.com](http://render.com/) (host)
+- Postgres (database)
+- Supabase (host)
 
 ## Stretch Goals
 - Learning status
@@ -110,7 +121,6 @@ KataDsA
 - Canvas / WebGL (possible: Pixi.js)
 
 ## Later Goals
-- Github login
 - Code editor
 - Side-by-side view
 
