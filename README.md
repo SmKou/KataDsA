@@ -36,6 +36,10 @@ KataDsA is a programmer's project organizer, where programmers can add to their 
 
 **FRI, Sep 22**
 05:56 pm Setup Vercel account
+- KataDSA project (private)
+- Add Supabase
+- Kou.d Blue organization
+
 
 ## Complete Setup
 
