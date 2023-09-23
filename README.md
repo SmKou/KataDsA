@@ -35,6 +35,10 @@ KataDsA is a programmer's project organizer, where programmers can add to their 
 08:11 pm Continue reading on Vue: [Docs](https://vuejs.org/guide/essentials/application.html)
 
 **FRI, Sep 22**
+01:35 pm Reconsider app design (Update readme and capstone proposal)
+03:08 pm Add project spec
+04:37 pm Research URL checkers
+05:12 pm Read: XSS vulnerabilities and input sanitization and validation
 05:56 pm Setup Vercel account
 - KataDSA project (private)
 - Add Supabase
@@ -43,6 +47,7 @@ KataDsA is a programmer's project organizer, where programmers can add to their 
 - Domain: [KataDSA](https://www.katadsa.dev)
 - Create new Github App -> deferred
 
+**SAT, 
 
 ## Complete Setup
 
