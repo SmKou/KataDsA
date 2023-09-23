@@ -15,7 +15,7 @@
 
 **APIs**
 - Github
-- IPQualitySource
+- IPQualityScore
 - Google Safe Browsing Lookup
 
 ## Web Client
@@ -198,3 +198,7 @@ Host -> complete | ongoing
   - Update
 - Problem
 - Project
+
+User-provided urls
+- use IPQualitySource and Google Safe Browsing Lookup API
+- issue warning on out-going links
