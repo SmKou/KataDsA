@@ -34,6 +34,9 @@ KataDsA is a programmer's project organizer, where programmers can add to their 
 04:32 pm Remove Vue
 08:11 pm Continue reading on Vue: [Docs](https://vuejs.org/guide/essentials/application.html)
 
+**FRI, Sep 22**
+05:56 pm Setup Vercel account
+
 ## Complete Setup
 
 If you want to start the KataDsA app from scratch...

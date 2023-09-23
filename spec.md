@@ -178,6 +178,13 @@ Project
 - source links: required for confirming the sources of a project
 - type links: required to confirm project type
 
+User-provided Urls
+1. Validate user input
+   - input type="url"
+   - javascript regex
+2. Ping url
+3. Call url checkers
+
 Project type
 - professional: org page
 - open source: org page
