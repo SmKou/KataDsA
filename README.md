@@ -39,6 +39,9 @@ KataDsA is a programmer's project organizer, where programmers can add to their 
 - KataDSA project (private)
 - Add Supabase
 - Kou.d Blue organization
+07:58 pm Connect Supabase authentication to Github
+- Domain: [KataDSA](https://www.katadsa.dev)
+- Create new Github App -> deferred
 
 
 ## Complete Setup
