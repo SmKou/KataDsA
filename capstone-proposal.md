@@ -52,6 +52,9 @@
 Users
 Contacts
 Settings
+Institutions
+- User_Education
+- User_Occupations
 
 Projects
 - ProOpenSource_Project
@@ -91,6 +94,7 @@ Project_Updates
 
 ## Stretch Goals
 - Auto-populate project information
+- Add LinkedIn api: fetch profile information
 - Learning status
   - Add links to courses and bootcamps
   - Add certificate urls
