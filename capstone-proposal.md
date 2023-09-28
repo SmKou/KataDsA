@@ -57,8 +57,6 @@ Institutions
 - User_Occupations
 
 Projects
-- ProOpenSource_Project
-- Education_Project
 Sources
 Resources
 Project_Resources
@@ -93,13 +91,21 @@ Project_Updates
     - Color blind (if needed)
 
 ## Stretch Goals
-- Auto-populate project information
-- Add LinkedIn api: fetch profile information
+- Github api: Auto-populate project information
 - Learning status
   - Add links to courses and bootcamps
   - Add certificate urls
 
 ## BackLog
+
+**Programmer Experience**
+- Label projects: professional, open source, academic, or hobby
+- Add LinkedIn api: fetch profile information
+- Add Youtube api: conference video links and fetch video title and description
+- Professional verification
+- Open source verification
+- Academic verification
+- Database: Add ProOpenSource_Project and Education_Project
 
 **User Authenticity Verification**
 - Upload certificates and degree documents
