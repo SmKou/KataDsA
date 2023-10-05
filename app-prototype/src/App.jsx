@@ -1,10 +1,19 @@
 import { useState } from 'react'
 
+const Pages = {
+    Home: 'home',
+    Kata: 'kata',
+    DataStructures: 'data-structures',
+    Algorithms: 'algorithms',
+    Login: 'login',
+    Register: 'register'
+}
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [page, setPage] = useState(Pages.Home)
 
   return <>
-    <Header />
+    <Header page setPage pages={Pages} />
     <Container />
     <Footer />
   </>
