@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { Inter } from 'next/font/google'
+import Header from './components/Header'
+import Container from './components/Container'
+import Footer from './components/Footer'
 
 const Pages = {
     Home: 'home',
@@ -13,8 +15,8 @@ const Pages = {
 function App() {
   const [page, setPage] = useState(Pages.Home)
 
-  return <main className={inter.className}>
-    <Header page setPage pages={Pages} />
+  return <main className="h-screen">
+    <Header page={page} setPage={setPage} pages={Pages} />
     <Container />
     <Footer />
   </main>
