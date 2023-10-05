@@ -1,0 +1,84 @@
+{
+    "sources": {
+        "63d8f937-eecb-474e-a559-b8a8b4c72406": {
+            "name": "KataDSA",
+            "url": "https://www.katadsa.dev",
+            "isVerified": true
+        },
+        "3256ac65-6f3c-4a8c-a1db-3ba980211075": {
+            "name": "Epicodus",
+            "url": "https://www.epicodus.com"
+        },
+        "3c3f3bc1-d6ee-4995-b180-3e8ac47c6d1d": {
+            "name": "University of Washington",
+            "url": "https://www.washington.edu"
+        },
+        "980615ab-398e-4216-b4f8-fa94f13a47ec": {
+            "name": "Shanghai Jiaotong University",
+            "url": "https://en.sjtu.edu.cn"
+        },
+        "50fea320-ca3b-4eba-bd3d-b46f42064b2c": {
+            "name": "GeeksforGeeks",
+            "url": "",
+            "isVerified": true
+        },
+        "7221ee1a-a41c-4df9-971f-82ce9643d855": {
+            "name": "Wikipedia",
+            "isVerified": true
+        },
+        "82ad92a1-d524-4659-a7b3-edf0cbb6f37d": {
+            "name": "LeetCode",
+            "url": "https://leetcode.com",
+            "isVerified": true
+        },
+        "143e5339-f42e-4a59-b7f3-44e59ab044f1": {
+            "name": "Kata-Log",
+            "url": "https://kata-log.rocks",
+            "isVerified": true
+        }
+    },
+    "projectSources": {
+        "d84e0b69-44cb-4a4d-bfe5-a911f6201c69": {
+            "project": "a5b44faf-e463-4bf2-965c-935bd42a95e0",
+            "source": "63d8f937-eecb-474e-a559-b8a8b4c72406",
+            "url": "https://katadsa.dev/data-structure/arrays",
+            "type": "origin"
+        },
+        "32312341-3322-4cd5-bcf9-d71fdc01182a": {
+            "project": "df49a114-9f24-47cf-8f79-13403ab3db60",
+            "source": "50fea320-ca3b-4eba-bd3d-b46f42064b2c",
+            "url": "https://www.geeksforgeeks.org/searching-algorithms/",
+            "type": "resource"
+        },
+        "12152fba-9fef-4af0-a91a-e93da82c5bee": {
+            "project": "df49a114-9f24-47cf-8f79-13403ab3db60",
+            "source": "7221ee1a-a41c-4df9-971f-82ce9643d855",
+            "url": "https://en.wikipedia.org/wiki/Search_algorithm",
+            "type": "resource"
+        },
+        "bc8b4ee1-6100-43a2-80e4-17d961590fc8": {
+            "project": "a5b44faf-e463-4bf2-965c-935bd42a95e0",
+            "source": "50fea320-ca3b-4eba-bd3d-b46f42064b2c",
+            "url": "https://www.geeksforgeeks.org/array-data-structure/",
+            "type": "resource"
+        },
+        "c5edafc0-6830-4906-b1b4-de77ca950317": {
+            "project": "df49a114-9f24-47cf-8f79-13403ab3db60",
+            "source": "63d8f937-eecb-474e-a559-b8a8b4c72406",
+            "url": "https://katadsa.dev/algorithm/search-algorithms",
+            "type": "origin"
+        },
+        "c1779449-1c23-4585-b5b2-c2274e93cab3": {
+            "project": "a5b44faf-e463-4bf2-965c-935bd42a95e0",
+            "source": "7221ee1a-a41c-4df9-971f-82ce9643d855",
+            "url": "https://en.wikipedia.org/wiki/Array_(data_structure)",
+            "type": "resource"
+        },
+        "821786ad-ccbf-42bd-b5bf-afd8a2cfad8a": {
+            "project": "70d957b8-09c2-41c2-8ca7-01f92dd273cd",
+            "source": "143e5339-f42e-4a59-b7f3-44e59ab044f1",
+            "url": "https://kata-log.rocks/configure-wardrobe-kata",
+            "type": "origin"
+        }
+    }
+}
