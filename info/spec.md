@@ -1,5 +1,24 @@
 # KataDSA
 
+**Main Developer**: [Sm Kou](https://github.com/smkou)
+**Organization**: [Kou.d Blue](https://github.com/KoudBlue)
+
+
+
+[Purpose](#purpose)
+
+## Purpose
+
+KataDSA is a programmer's project organizer designed around validity and intentional learning. Kata, as defined by Oxford Languages, are a system of individual training exercises for practitioners of karate and other martial arts. Websites like Kata Log and Codedurance adapt this concept to programming, providing prompts for completing simple, singular objectives in projects.
+
+While KataDSA provides an organizer to present projects, it also provides template projects that programmers can fork or use as a template to practice implementing data structures and algorithms and solving issues like adding features, fixing bugs, testing, and upgrading legacy code. Rather than drilling through problems with no surrounding code structure or context, our template projects offer programmers a way to improve intentionally, seeing how their solutions perform and integrate with the rest of an app and the development process.
+
+### Features
+- List: Kata, Data structures, and Algorithms
+- Add prompt to projects 
+
+## Prototyping
+
 ## Working Parts
 
 **Technologies**
